@@ -9,21 +9,17 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 */
 
 -- Q1
-SELECT country FROM country
-WHERE country LIKE 'A%a';
+SELECT country FROM country WHERE country LIKE 'A%a';
 -- WHERE country ~~ 'A%a'; -- alternative solution
 
 -- Q2
-SELECT country FROM country
-WHERE country LIKE '_____%n';
+SELECT country FROM country WHERE country LIKE '_____%n';
 -- WHERE country ~~ '_____%n'; -- alternative solution
 
 -- Q3
-SELECT title FROM film
-WHERE title ILIKE '%T%T%T%T%';
+SELECT title FROM film WHERE title ILIKE '%T%T%T%T%';
 -- WHERE title ~~* '%T%T%T%T%'; -- alternative solution
 
 -- Q4
-SELECT * FROM film
-WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;
+SELECT * FROM film WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;
 -- WHERE title ~~ 'C%' AND length > 90 AND rental_rate = 2.99; -- alternative solution
