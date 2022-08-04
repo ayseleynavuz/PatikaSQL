@@ -3,4 +3,6 @@ This repo includes SQL Assignments on the <a href="https://www.patika.dev/tr">Pa
 
 Course Link: https://app.patika.dev/courses/sql
 
+PostgreSQL is used in this tutorial.
+
 ### Ayşe Aleyna Yavuz
