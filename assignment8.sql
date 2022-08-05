@@ -71,8 +71,8 @@ insert into employee (id, name, birthday, email) values (50, 'Alick Coppledike',
 -- Q3) Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 UPDATE employee
 SET id = 58,
-    name = 'Burak Kağan KORKMAZ',
-    email = 'bkagan@patika.dev'
+    name = 'Ayşe Aleyna Yavuz',
+    email = 'aleyna@patika.dev'
 WHERE id = 17
 RETURNING *;	-- Returning is only used for displaying last updates
 
